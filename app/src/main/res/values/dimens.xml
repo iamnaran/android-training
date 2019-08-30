@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout Dimensions -->
+
+    <dimen name="spacing">16</dimen>
+    <dimen name="button_radius_large">4dp</dimen>
+
+
+    <!-- RecyclerView Item Dimensions -->
+
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="item_padding_bottom">2dp</dimen>
+    <dimen name="view_pager_gap">10dp</dimen>
+
+
+
+    <!-- Button Dimensions -->
+
+    <dimen name="button_padding_start">10dp</dimen>
+    <dimen name="button_padding_end">10dp</dimen>
+
+
+    <!-- Text Dimensions -->
+
+
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="large_text_size">18sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="extra_small_text_size">10sp</dimen>
+
+
+    <!-- Corner Radius -->
+    <dimen name="corner_radius">26dp</dimen>
+    <dimen name="corner_radius_home">6dp</dimen>
+
+
+</resources>

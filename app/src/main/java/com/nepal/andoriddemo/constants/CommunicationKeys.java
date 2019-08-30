@@ -1,0 +1,1 @@
+package com.nepal.andoriddemo.constants;public class CommunicationKeys {    public static final String DETAILS_DATA_ID = "details_data_id";    public static final String DETAILS_DATA_TYPE = "details_data_type";}

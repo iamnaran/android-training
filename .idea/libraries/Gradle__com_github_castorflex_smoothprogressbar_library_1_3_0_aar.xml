@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.castorflex.smoothprogressbar:library:1.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/621ce05592785c762f60d1c064e9f8ef/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/621ce05592785c762f60d1c064e9f8ef/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.castorflex.smoothprogressbar/library/1.3.0/cf7a20414a9300c123a9ab706848de8edd495730/library-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
