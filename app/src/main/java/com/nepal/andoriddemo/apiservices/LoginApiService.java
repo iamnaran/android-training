@@ -18,7 +18,7 @@ public interface LoginApiService {
 
     @POST("login")
     @FormUrlEncoded
-    Call<UserLogin> login(
+    Call<UserLogin> loginService(
             @Field("email") String email,
             @Field("password") String password
     );

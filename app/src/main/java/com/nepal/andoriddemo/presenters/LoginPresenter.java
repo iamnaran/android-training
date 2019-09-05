@@ -46,7 +46,7 @@ public class LoginPresenter {
 
         LoginApiService loginApiService = ApiClient.getClient().create(LoginApiService.class);
 
-        loginApiService.login(email, password).enqueue(new Callback<UserLogin>() {
+        loginApiService.loginService(email, password).enqueue(new Callback<UserLogin>() {
             @Override
             public void onResponse(Call<UserLogin> call, Response<UserLogin> response) {
 

@@ -24,9 +24,9 @@ public class ApiInterceptor implements Interceptor {
     @Override
     public Response intercept(@NonNull Chain chain) throws IOException {
         Request originalRequest = chain.request();
-        if (Utilities.getLoginResponse() == null ) {
-            return chain.proceed(originalRequest);
-        }
+//        if (Utilities.getLoginResponse() == null ) {
+//            return chain.proceed(originalRequest);
+//        }
 
         Request request = originalRequest.newBuilder()
                 .addHeader("Authorization", Utilities.getLoginResponse().getUserDetails().getToken())
