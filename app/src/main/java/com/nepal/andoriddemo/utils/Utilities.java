@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 
 import com.google.gson.GsonBuilder;
 import com.nepal.andoriddemo.constants.AppConstants;
+import com.nepal.andoriddemo.models.Notifications;
 import com.nepal.andoriddemo.models.UserLogin;
 
 import static com.nepal.andoriddemo.helpers.MyApplication.getSharedPreference;
@@ -47,6 +48,27 @@ public class Utilities {
 
         return getSharedPreference().getBoolean(AppConstants.IS_FIRST_LOGIN, false);
     }
+
+
+    /**
+     *
+     * @param notifications save & get
+     *
+     */
+    public static void saveNotificationData(Notifications notifications) {
+        String json = new GsonBuilder().create().toJson(notifications);
+        SharedPreferences.Editor editor = getSharedPreference().edit();
+        editor.putString(AppConstants.NOTIFICATION_RESPONSE, json);
+        editor.apply();
+
+    }
+
+
+    public static Notifications getNotificationResponse() {
+        String savedUserResponse = getSharedPreference().getString(AppConstants.NOTIFICATION_RESPONSE, null);
+        return new GsonBuilder().create().fromJson(savedUserResponse, Notifications.class);
+    }
+
 
 
 //    public static void saveLoginResponse(UserLogin loginResponse) {

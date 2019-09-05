@@ -16,6 +16,7 @@ public class AppConstants {
 
     public static final String LOGIN_RESPONSE = "loginResponse";
     public static final String IS_FIRST_LOGIN = "isFirstLogin";
+    public static final String NOTIFICATION_RESPONSE = "notificationResponse";
 
 
 }

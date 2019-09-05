@@ -58,6 +58,8 @@ public class NotificationPresenter {
 
                         if (getView() != null){
 
+                            Utilities.saveNotificationData(response.body());
+
                             getView().onNotificationResponseSuccess(response.body());
 
                         }
