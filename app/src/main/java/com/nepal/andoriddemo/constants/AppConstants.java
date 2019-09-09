@@ -19,4 +19,5 @@ public class AppConstants {
     public static final String NOTIFICATION_RESPONSE = "notificationResponse";
 
 
+    public static final String FCM_TOKEN = "fcm_token";
 }

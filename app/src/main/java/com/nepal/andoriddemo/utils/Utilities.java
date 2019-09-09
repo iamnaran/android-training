@@ -51,9 +51,7 @@ public class Utilities {
 
 
     /**
-     *
      * @param notifications save & get
-     *
      */
     public static void saveNotificationData(Notifications notifications) {
         String json = new GsonBuilder().create().toJson(notifications);
@@ -69,6 +67,16 @@ public class Utilities {
         return new GsonBuilder().create().fromJson(savedUserResponse, Notifications.class);
     }
 
+
+    public static void saveFcmToken(String fcmToken) {
+        SharedPreferences.Editor editor = getSharedPreference().edit();
+        editor.putString(AppConstants.FCM_TOKEN, fcmToken);
+        editor.apply();
+    }
+
+    public static String getFcmToken() {
+        return getSharedPreference().getString(AppConstants.FCM_TOKEN, "");
+    }
 
 
 //    public static void saveLoginResponse(UserLogin loginResponse) {

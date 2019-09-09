@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677785403078",
+    "firebase_url": "https://android-demo-cd690.firebaseio.com",
+    "project_id": "android-demo-cd690",
+    "storage_bucket": "android-demo-cd690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677785403078:android:c150ca6a1a6b231ec3e1c7",
+        "android_client_info": {
+          "package_name": "com.nepal.andoriddemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677785403078-qp72t18iuofq6l6ruq3nf94spd9eqava.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAamS2mY64L6yjgQLNwPDM-ZtHh0dOleyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677785403078-qp72t18iuofq6l6ruq3nf94spd9eqava.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
