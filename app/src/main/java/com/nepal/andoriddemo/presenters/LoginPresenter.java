@@ -67,11 +67,7 @@ public class LoginPresenter {
             @Override
             public void onFailure(Call<UserLogin> call, Throwable t) {
 
-
                 getView().onResponseFailure("Something went wrong!");
-
-                Log.e("onFailure: ", UtilitiesFunctions.handleApiError(t));
-
 
             }
         });

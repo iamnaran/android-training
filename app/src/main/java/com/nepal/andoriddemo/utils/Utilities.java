@@ -23,7 +23,9 @@ public class Utilities {
      * */
 
     public static void saveLoginResponse(UserLogin loginResponse) {
+
         String json = new GsonBuilder().create().toJson(loginResponse);
+
         SharedPreferences.Editor editor = getSharedPreference().edit();
         editor.putString(AppConstants.LOGIN_RESPONSE, json);
         editor.apply();
